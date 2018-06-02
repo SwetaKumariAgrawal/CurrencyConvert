@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sweta.currencyconvert.MainActivity"
+    android:background="@drawable/currencygold"
+    android:orientation="vertical"
+    android:alpha="0.6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency convertor"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:alpha="1"
+        android:layout_marginLeft="32dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="enter the amount in rupee"
+        android:textSize="32sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="8dp"
+        android:hint="enter number"
+        android:background="#c9e243"
+        android:id="@+id/ed1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="convert"
+        android:textSize="24sp"
+        android:layout_marginLeft="128dp"
+        android:onClick="convert"
+        />
+
+</LinearLayout>
